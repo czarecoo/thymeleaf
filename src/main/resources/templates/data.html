@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Profession</th>
+    </tr>
+    <tr>
+        <td th:text="${myData.id}"></td>
+        <td th:text="${myData.name}"></td>
+        <td th:text="${myData.surname}"></td>
+        <td th:text="${myData.profession}"></td>
+    </tr>
+</table>
+</body>
+</html>
